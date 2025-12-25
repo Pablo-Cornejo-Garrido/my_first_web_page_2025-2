@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #003865;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Clase para resaltar la página actual */
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #003865;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 30%;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f4f4f4;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
