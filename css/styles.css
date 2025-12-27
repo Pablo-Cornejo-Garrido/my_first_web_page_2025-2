@@ -1,59 +1,27 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
+/* css/styles.css */
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; display: flex; flex-direction: column; min-height: 100vh; }
+header { background: #003865; color: #ffffff; padding: 1rem; text-align: center; }
+nav ul { list-style: none; padding: 0; background: #f4f4f4; text-align: center; margin: 0; }
+nav ul li { display: inline; margin: 0 10px; }
+nav ul li a { color: #333; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+nav ul li a:hover, .active { color: #003865; text-decoration: underline; }
 
-header {
-    background: #003865;
-    color: #ffffff;
-    padding: 1rem;
-    text-align: center;
-}
+main { padding: 20px; max-width: 800px; margin: auto; flex: 1; text-align: left; }
+h1, h2 { color: #003865; }
+footer { text-align: center; padding: 1rem; background: #003865; color: white; margin-top: auto; }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    background: #f4f4f4;
-    text-align: center;
-}
+/* Estilos para Tablas (Degree Page) */
+table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #003865; color: white; }
 
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
+/* Estilos para Formularios (Contact Page) */
+form { background: #f9f9f9; padding: 20px; border-radius: 8px; }
+label { display: block; margin-bottom: 5px; font-weight: bold; }
+input, textarea { width: 100%; padding: 8px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; }
+button { background: #003865; color: white; padding: 10px 15px; border: none; cursor: pointer; }
+button:hover { background: #0056b3; }
 
-nav ul li a {
-    color: #333;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* Clase para resaltar la página actual */
-.active {
-    font-weight: bold;
-    text-decoration: underline;
-    color: #003865;
-}
-
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-.image-container img {
-    width: 30%;
-    margin: 10px;
-    border: 2px solid #ddd;
-    border-radius: 8px;
-}
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background: #f4f4f4;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+/* Imágenes */
+.profile-pics img { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin: 10px; }
+.gallery img { width: 100%; max-width: 300px; margin: 10px; border: 1px solid #ddd; }
