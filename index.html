@@ -2,56 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Web Page</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; }
-        header { background-color: #003865; color: white; padding: 10px; text-align: center; }
-        
-        nav ul { list-style-type: none; padding: 0; text-align: center; background-color: #f4f4f4; margin: 0; }
-        nav ul li { display: inline; margin: 0 15px; }
-        nav ul li a { text-decoration: none; color: #333; font-weight: bold; }
-        
-        main { padding: 20px; text-align: center; }
-        
-        .image-container { margin-top: 20px; }
-        .image-container img { 
-            width: 30%; 
-            margin: 10px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-        }
-
-        footer { background-color: #eee; padding: 10px; text-align: center; position: fixed; bottom: 0; width: 100%; }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web App</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Web Page</h1>
+        <h1>Welcome to My Web App</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/about.html">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-
     <main>
         <section>
             <h2>My Project Gallery</h2>
-            <p>Here are the three images for Activity 3:</p>
-            
+            <p>Check out my images below:</p>
             <div class="image-container">
-                <img src="images/envelope-white.png" alt="Imagen 1">
-                <img src="images/location-white.png" alt="Imagen 2">
-                <img src="images/telephone-white.png" alt="Imagen 3">
+                <img src="images/image1.png" alt="Image 1">
+                <img src="images/image2.png" alt="Image 2">
+                <img src="images/image3.png" alt="Image 3">
             </div>
         </section>
     </main>
 
     <footer>
-        <p>Copyright 2025 - My Web Page</p>
+        <p>&copy; 2025 My Web Page Project</p>
     </footer>
 </body>
 </html>
