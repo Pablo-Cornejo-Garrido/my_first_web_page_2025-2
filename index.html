@@ -3,38 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web App</title>
+    <title>Pablo's Project Index</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Web App</h1>
-<nav>
-    <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="pages/about.html">About Me</a></li>
-        <li><a href="pages/net.html">Net</a></li>
-        <li><a href="pages/degree.html">Degree</a></li>
-        <li><a href="pages/topic.html">Topic</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
-    </ul>
-</nav>
+        <h1>Project Index</h1>
+        <p>Fundamentals of Computer Engineering - Practical Work II</p>
     </header>
-    
+
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="pages/about.html">About</a></li>
+            <li><a href="pages/net.html">Net</a></li>
+            <li><a href="pages/degree.html">Degree</a></li>
+            <li><a href="pages/fce.html">FCE</a></li>
+            <li><a href="pages/topic.html">Topic</a></li>
+            <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
     <main>
-        <section>
-            <h2>My Project Gallery</h2>
-            <p>Check out my images below:</p>
-            <div class="image-container">
-                <img src="images/image1.png" alt="Image 1">
-                <img src="images/image2.png" alt="Image 2">
-                <img src="images/image3.png" alt="Image 3">
-            </div>
-        </section>
+        <div style="text-align: center; margin-bottom: 30px;">
+            <h2>Welcome to my Web Application</h2>
+            <p>Select a section below to explore the contents of this project:</p>
+        </div>
+
+        <div class="dashboard-grid">
+            
+            <a href="pages/about.html" class="card">
+                <h3>About Me</h3>
+                <p>Personal profile, photos, CV, and my goals as a future AI developer.</p>
+            </a>
+
+            <a href="pages/degree.html" class="card">
+                <h3>My Degree</h3>
+                <p>Full curriculum of the Computer Science degree at UFV, year by year.</p>
+            </a>
+
+            <a href="pages/fce.html" class="card">
+                <h3>FCE Subject</h3>
+                <p>Syllabus, units, and practical assignments of Fundamentals of Computer Engineering.</p>
+            </a>
+
+            <a href="pages/net.html" class="card">
+                <h3>My Network</h3>
+                <p>Links to the web projects of my classmates and colleagues.</p>
+            </a>
+
+            <a href="pages/topic.html" class="card">
+                <h3>Topic: Future</h3>
+                <p>Why this subject is the cornerstone for my future career.</p>
+            </a>
+
+            <a href="pages/contact.html" class="card">
+                <h3>Contact</h3>
+                <p>Get in touch with me via the contact form.</p>
+            </a>
+
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 My Web Page Project</p>
+        <p>&copy; 2025 Pablo Cornejo Garrido - UFV Madrid</p>
     </footer>
+
 </body>
 </html>
